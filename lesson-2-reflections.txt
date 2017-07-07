@@ -13,3 +13,7 @@ Branches allow for larger scale changes that can be iteratively built upon and m
 How do the diagrams help you visualize the branch structure?
 
 Commits have the concept of a parent... only commits in the sequence of parents back to the initial commit show up in a log. The head is the most recent commit of the current branch.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+Merging two branches identifies the last parent the two branches have in common as a starting point. Then, using that parent, git identifies what was deleted from that parent by either branch and deletes it from the merged version. It also identifies anything that was added by either branch and adds it to the merged version. It is represented on the diagram as it is to show that the commits leading up to the final commit in either branch before the merge are then accessible in the merged branch.
