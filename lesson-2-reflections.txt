@@ -9,3 +9,7 @@ By adding things to the staging area and comparing the staging area to the lates
 What are some situations when branches would be helpful in keeping your history organized? How would branches help?
 
 Branches allow for larger scale changes that can be iteratively built upon and modified while still easily reverting to a point before those changes/making changes to any bugs that exist in an earlier version.
+
+How do the diagrams help you visualize the branch structure?
+
+Commits have the concept of a parent... only commits in the sequence of parents back to the initial commit show up in a log. The head is the most recent commit of the current branch.
