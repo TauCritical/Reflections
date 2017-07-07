@@ -1,3 +1,7 @@
 What happens when you initialize a repository? Why do you need to do it?
 
 Git creates a .git file and takes a snapshot of what files are in the directory. Without this step, the infrastructure to track changes does not exist.
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+By adding things to the staging area and comparing the staging area to the latest commit prior to committing, you can see exactly what will be changed in the repository prior to committing and evaluate whether that constitutes more than one logical change.
