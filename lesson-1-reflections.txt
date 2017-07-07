@@ -1,0 +1,27 @@
+How did comparing two versions help to identify error?
+
+By looking at only the places where a file changed, could easily identify where a typo may have occurred... noticing that 'space' was misspelled was easier
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+If I'm exploring ways to optimize code and change something to a different way of doing things, I might break something unexpected. If I can't easily restore to where I was, I might be hesitant to optimize/improve in the future.
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in git, vs having versions automatically saved, like google docs does?
+
+The pros are you get to decide when an appropriate time is in terms of making sense for someone trying to identify what changes occurred as well as having both versions be functional, stand alone items. The cons would be it's possible to forget to commit, therefore missing out on restoration points.
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+
+The version control systems have different purposes. For some systems, it's assumed that no files will have any interdependencies (Google Docs), while for others a change in one file may have effects on other files so multiple files need to to changed at once with appropriate changes.
+
+How can you use the commands git log and git diff to view the history of files?
+
+Git log shows all commits including their message describing what was done, git diff between two commits shows all that was added and deleted between the two commits
+
+How might using version control make you more confident ot make changes that could break something?
+
+It would be much easier to restore to a previous version if something breaks. If something breaks due to an older change, can go back several changes and identify where bug started.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+It would be nice to have fewer python scripts that can be reverted to more easily
