@@ -1,0 +1,3 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+Git creates a .git file and takes a snapshot of what files are in the directory. Without this step, the infrastructure to track changes does not exist.
