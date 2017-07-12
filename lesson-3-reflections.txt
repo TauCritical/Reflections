@@ -13,7 +13,12 @@ unexpected conflicts with your local repository and commits
 Describe the differences between forks, clones, and branches.  When would you
 use one instead of another?
 
-    Fill in your answer here
+Forks operate on github only. They take an existing github respository and make
+a new github repository. Clones are similar to forks, but operate within git and
+require the endpoint to be a local repository. The starting point can either be
+another local repository or github. Branches operate within one repository, and
+create a new 'chain' of commits eventually leading back to the same parent as
+another 'branch'.
 
 What is the benefit of having a copy of the last known state of the remote
 stored locally?
